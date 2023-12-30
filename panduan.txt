@@ -1,0 +1,26 @@
+
+Nama : Mohammad Ilham Teguhriyadi
+
+- Cara Buka Project -
+
+1. Clonning terlebih dahulu project nya dari github
+2. Apabila sudah, lakukan composer install pada CMD / Terminal
+3. Jika sudah selesai, buka project tersebut di Text Editor
+4. Lalu, rename file .env.example menjadi .env
+5. Buat database baru pada server, misalkan menggunakan localhost/phpmyadmin
+6. Jika sudah buat database baru, samakan namanya dengan DB_DATABASE yang ada pada file .env
+7. Kemudian buka terminal kembali, dan ketikkan php artisan key:generate
+8. Lalu, ketikkan php artisan migrate --seed
+9. Selesai
+
+-------------- 
+Akun Login
+--------------
+
+- Administrator :
+email : admin@gmail.com
+password : administrator
+
+- User :
+email : ilham@gmail.com
+password : penyewa
